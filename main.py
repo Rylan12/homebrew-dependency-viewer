@@ -17,12 +17,21 @@ def convert_to_dict(lines):
     return deps
 
 
-def num_times_depended(module, deps):
+def num_times_required(module, deps):
     count = 0
     for dep in deps:
         if module in deps[dep]:
             count += 1
     return count
+
+
+def load_exclusions(file):
+    try:
+        with open(file, 'r') as f:
+            exclusions = f.read().strip().split('\n')
+    except FileNotFoundError:
+        exclusions = []
+    return exclusions
 
 
 def print_output(mods):
@@ -32,9 +41,10 @@ def print_output(mods):
 
 if __name__ == '__main__':
     deps = get_deps_from_file('deps.txt')
+    exclusions = load_exclusions('exclude.txt')
 
     mods = []
     for mod in deps:
-        if num_times_depended(mod, deps) == 0:
+        if num_times_required(mod, deps) == 0 and mod not in exclusions:
             mods.append(mod)
     print_output(mods)
