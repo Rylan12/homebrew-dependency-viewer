@@ -4,13 +4,13 @@ This is a utility to view Homebrew packages that no other packages depend on. Th
 
 ## Usage
 
-Run `./main.py` to print all packages that aren't depenencies for another package (automatically calls `brew deps --installed`)
+Run `./brew-deps` to print all packages that aren't depenencies for another package (automatically calls `brew deps --installed`)
 
-Run `./main.py -f <file>` to check dependencies based on a specific file instead of automatically calling `brew deps --installed`. To save a file in the right format, try `brew deps --installed > <file>`.
+Run `./brew-deps -f <file>` to check dependencies based on a specific file instead of automatically calling `brew deps --installed`. To save a file in the right format, try `brew deps --installed > <file>`.
 
-Run `./main.py -e <file>` to exclude packages that are in the file. This is helpful if you have a set of packages that you use regularly and don't want to show up in the output. See an [example file](exclude.txt). To save a file in the right format, try `./main.py > <file>`.
+Run `./brew-deps -e <file>` to exclude packages that are in the file. This is helpful if you have a set of packages that you use regularly and don't want to show up in the output. See an example file [here](exclude.txt). To save a file in the right format, try `./brew-deps > <file>`.
 
-You can chain `-f` and `-e` together if desired (`./main.py -f <deps-file> -e <exclude-file>`)
+You can chain `-f` and `-e` together if desired (`./brew-deps -f <deps-file> -e <exclude-file>`)
 
 ## Tips
 
