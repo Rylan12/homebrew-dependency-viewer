@@ -1,10 +1,12 @@
 ack
 archey
+awscli
 baobab
 bat
 cmake
 cmatrix
 cowsay
+doitlive
 dos2unix
 doxygen
 exa
