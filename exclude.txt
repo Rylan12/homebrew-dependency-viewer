@@ -38,5 +38,6 @@ trash
 tree
 vim
 watch
+wget
 wifi-password
 yarn
