@@ -17,6 +17,7 @@ github/gh/gh
 git
 gnu-sed
 gnupg
+go
 htop
 jq
 lolcat
