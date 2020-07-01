@@ -19,6 +19,7 @@ gnu-sed
 gnupg
 go
 htop
+hub
 jq
 lolcat
 mas
