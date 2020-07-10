@@ -29,6 +29,7 @@ nano
 ncdu
 nmap
 pandoc
+pkg-config
 ripgrep
 shellcheck
 so
