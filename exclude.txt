@@ -21,6 +21,7 @@ go
 htop
 hub
 jq
+lazygit
 lolcat
 mas
 midnight-commander
