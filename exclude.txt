@@ -30,6 +30,7 @@ nano
 ncdu
 nmap
 pandoc
+pipgrip
 pkg-config
 ripgrep
 shellcheck
