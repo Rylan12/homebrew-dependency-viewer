@@ -21,6 +21,7 @@ jq
 lazygit
 lolcat
 macdown
+mactex
 mas
 mosquitto
 nano
