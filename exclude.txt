@@ -15,7 +15,6 @@ git
 gnu-sed
 gnupg
 hammerspoon
-htop
 hub
 jq
 lazygit
@@ -27,6 +26,7 @@ mosquitto
 nano
 ncdu
 nmap
+node
 notable
 pipgrip
 ripgrep
