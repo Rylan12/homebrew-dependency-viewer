@@ -26,7 +26,6 @@ mosquitto
 nano
 ncdu
 nmap
-node
 notable
 pipgrip
 ripgrep
