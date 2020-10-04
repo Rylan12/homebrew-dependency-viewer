@@ -15,6 +15,7 @@ git
 gnu-sed
 gnupg
 hammerspoon
+htop
 hub
 jq
 lazygit
