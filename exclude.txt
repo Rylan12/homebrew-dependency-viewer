@@ -29,7 +29,6 @@ ncdu
 nmap
 notable
 pipgrip
-python@3.9
 ripgrep
 shellcheck
 so
