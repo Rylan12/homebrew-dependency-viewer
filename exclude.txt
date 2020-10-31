@@ -44,3 +44,4 @@ watch
 wget
 wifi-password
 yarn
+youtube-dl
