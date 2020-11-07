@@ -1,8 +1,7 @@
 ack
-archey
+rylan12/personal/archey-macos
 awscli
 balenaetcher
-cmake
 cmatrix
 cowsay
 doitlive
@@ -17,7 +16,6 @@ gnupg
 hammerspoon
 htop
 hub
-jq
 lazygit
 lolcat
 macdown
