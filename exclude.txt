@@ -30,7 +30,7 @@ pipgrip
 ripgrep
 shellcheck
 so
-speedtest-cli
+teamookla/speedtest/speedtest
 thefuck
 tldr
 tmux
