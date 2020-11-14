@@ -20,7 +20,7 @@ hub
 lazygit
 lolcat
 macdown
-mactex
+mactex-no-gui
 mas
 mosquitto
 nano
