@@ -4,6 +4,7 @@ awscli
 balenaetcher
 cmatrix
 cowsay
+disk-inventory-x
 doitlive
 dos2unix
 exa
