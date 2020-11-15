@@ -1,5 +1,7 @@
 # Homebrew Dependency Viewer
 
+**The [`brew bundle`](https://github.com/Homebrew/homebrew-bundle) external command is a built-in tool that does the same thing (but better). Specifically, `brew bundle cleanup` will list all formulae not in the `Brewfile` and `brew bundle cleanup --force` will remove all of these formulae. To reset the `Brewfile` to the list of formulae currently installed, run `brew bundle dump`.**
+
 This is a utility to view Homebrew packages that no other packages depend on. This is helpful for removing old packages that were once requirements but are no longer used.
 
 ## Usage
